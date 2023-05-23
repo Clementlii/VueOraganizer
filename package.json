@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "buttercms": "^1.2.12",
+    "vue": "^3.3.4"
+  }
+}

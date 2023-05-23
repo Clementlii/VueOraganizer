@@ -1,0 +1,286 @@
+/*Debug CSS*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Quicksand", sans-serif;
+  }
+
+  ::-webkit-scrollbar{
+    border-radius: 30%;
+   color: red;
+  }
+  #Here{
+    color: rgb(90, 90, 90);
+    opacity: 80%;
+    cursor:default;
+  }
+  #contentdatamobile{
+    display: none;
+  }
+  .MAESLogoMobile{
+    display: none;
+  }
+    /*TopNavCSS*/
+   
+  ::-webkit-input-placeholder{
+    padding: 10px;
+  }
+  .searchButton {
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    background: #000000;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+    
+  }
+
+  .searchButton i{
+    color: white;
+  }
+  /*LeftNavCSS*/
+  .MainNav {
+    display: block;
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #ffffff;
+    padding-top: 20px;
+    box-shadow: rgba(0, 0, 0, 0.096) 1px 1px 1px 1px;
+  }
+
+  .LIGHT{
+    margin-top: 3rem;
+    width: 50%;
+    height: auto;
+  }
+  
+  #searchResults{
+    list-style: none;
+     background-color: #ffffff;
+    width: 240px;
+   
+  }
+  #searchResults li{
+    padding: 5px;
+  }
+  .Start{
+    margin-top: 5rem;
+  }
+  .City{
+    margin-top: 2rem;
+  }
+  .NavFaq{
+    margin-top: 25rem;
+
+  }
+  .MainNav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 400;
+    color: #000000;
+    display: block;
+    margin-top: 10px;
+    font-family: "Quicksand", sans-serif;
+  }
+
+  .MainNav i{
+    color: black;
+    font-size: 20px;
+  }
+  
+  .MainNav a:hover {
+    color: #444444;
+  }
+  
+.footerNav{
+  display: none;
+}
+  /*End - LeftNavCSS*/
+
+   @media (prefers-color-scheme: light){
+    body{
+      background-color: rgb(255, 255, 255);
+    }
+    .MobileLille, .MobileParis, .MobileCannes{
+      background-color: rgb(255, 255, 255);
+    }
+    .modal, .modaltwo, .modalthree, .modalfour, .modalfive, .modalsix, .modalSeven{
+      background: #f7f7f7;
+    }
+    .DARK{
+      display: none;
+    }
+   
+    .IdCard{
+      background-color: rgb(255, 255, 255);
+    }
+    .InformationCard{
+      background: rgb(255, 255, 255);
+    }
+    .footermobileNav{
+      background: rgb(241, 241, 241);
+     
+    }
+    i, a{
+      color: black;
+      text-decoration: none;
+    }
+    p, h1, h2, h3, a{
+      color: rgb(0, 0, 0);
+      text-decoration: none;
+    }
+   }
+
+   
+
+   @media screen and (max-width: 900px){
+    .Lille{
+      display: none;
+    }
+    .AgenceParis-Cannes{
+      display: none;
+    }
+    .MainTop{
+    display: none;
+  }
+  .MainNav{
+    display: none;
+  }
+
+
+  #contentdatamobile{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5rem;
+  
+  }
+
+  #contentdatamobile i{
+    font-size: 25px;
+  }
+
+  .LMaes img{
+    display: none;
+}
+
+
+.MembersLink, .ParisMembersLink, .CannesMembersLink{
+display: none;
+}
+.Centred{
+  width: 80%;
+  margin: auto;
+}
+
+  .Display{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+  }
+ .content{
+  flex-direction: column;
+ }
+
+ .IdCard{
+  max-width: 65vh;
+  margin: auto;
+  box-shadow: none;
+ }
+ .InformationCard{
+  max-width: 45vh;
+  max-height: 30vh;
+  box-shadow: none;
+  margin: auto;
+ }
+ .CardPlanOlivierK, .CardPlan, .Cardplan, .CardPlanChristophe, .CardPlanClara, .CardPlanHayette, .CardPlanLise{
+  max-width: 45vh;
+  background-repeat: no-repeat;
+  margin: auto;
+ }
+
+
+  
+
+
+ .ImgL{
+  width: 100%;
+  border-radius: 70%;
+  justify-self: center;
+}
+.ImgL img:hover{
+opacity: 50%;
+}
+.LMaes img{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: contain;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.432) 1px 1px 1px 1px;
+  background-color: white;
+}
+
+.hover-popup, .hover-popup2{
+  display: none;
+}
+.Manager{
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+ 
+}
+.teamParis{
+  margin: auto;
+  width: 43vh;
+}
+
+.TeamMembersResp{
+  width: 50%;
+  margin: auto;
+  display: flex;
+}
+.IdCard{
+  display: flex;
+  flex-direction: column;
+  box-shadow: none;
+
+}
+.ManagerHead{
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  object-fit: contain;
+  box-shadow: rgba(0, 0, 0, 0.432) 1px 1px 1px 1px;
+  justify-content: center;
+}
+.Mate{
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  object-fit: contain;
+  box-shadow: rgba(0, 0, 0, 0.432) 1px 1px 1px 1px;
+  
+}
+
+.Teammate{
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+  min-width: 20vh;
+  max-width: 20vh;
+  height: 10vh;
+}
+
+.Teammate p{
+padding-left: 20px;
+}
+
+}
